@@ -648,7 +648,8 @@ h6,
 p,
 label,
 .btn,
-a {
+a,
+.fa {
     font-family: "helvetica";
     font-weight: 400;
     color: #575757!important;
@@ -692,6 +693,24 @@ p {
     align-items: center;
     color: white;
 }
+.container-contact {
+    display: flex;
+    justify-content: center;
+}
+
+.container-contact .row {
+    background-color: #F3976C!important;
+    padding: 5rem;
+    width: 700px;
+}
+
+.container-contact .row .h2 {
+    color: black;
+}
+
+.btn-contact {
+    background-color: black;
+}
 
 .h1 {
     font-size: 20px;
@@ -700,7 +719,7 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
+    color: #F3976C!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -713,6 +732,10 @@ p {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+}
+
+.icon-md {
+    color: black;
 }
 
 h2 {
