@@ -90,6 +90,10 @@ a:hover {
     right: 0;
 }
 
+.citation {
+    font-size: 2rem;
+}
+
 .texture-paper::before {
     background: url("img/texture-paper.png");
     background-size: 280px 280px;
@@ -652,7 +656,7 @@ a,
 .fa {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: black!important;
 }
 
 .hero-bloc-text {
@@ -693,6 +697,18 @@ p {
     align-items: center;
     color: white;
 }
+
+.container-logo {
+    display: flex;
+    justify-content: center;
+}
+
+.container-logo .row {
+    background-color: #F3976C!important;
+    padding: 5rem;
+    width: 500px;
+}
+
 .container-contact {
     display: flex;
     justify-content: center;
@@ -810,6 +826,15 @@ h4 {
 
 .tc-white {
     color: #F3976C!important;
+}
+
+.btn-submit {
+    margin-top: 22px;
+    background-color: #F3976C!important;
+    text-transform: uppercase;
+    padding: 12px 28px 12px 28px;
+    font-size: 16px;
+    font-weight: 700;
 }
 
 .btn-atomic-tangerine {
