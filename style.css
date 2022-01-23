@@ -94,6 +94,10 @@ a:hover {
     font-size: 2rem;
 }
 
+.citation, span {
+    color: black;
+}
+
 .texture-paper::before {
     background: url("img/texture-paper.png");
     background-size: 280px 280px;
